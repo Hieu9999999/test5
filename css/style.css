@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+*{ 
+	box-sizing: border-box;
+}
+body{
+  font-family: 'Signika', sans-serif;font-size: 16px;color: #666666;margin: 0;  
+}
+.menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+.text-center{
+	text-align: center;
+}
+.menu{
+	padding-top: 16px;
+}
+.menu ul li a{
+	padding: 10px 25px;
+	text-decoration: none;
+	color: #363636;
+	border-radius: 20px;
+}
+.menu ul li a:hover{
+	background-color: darkred;
+	color: white;
+	
+}
+.myDiv {
+	width: 100%;
+	min-height: 700px;
+    border: 5px outset white;
+    background-image: url("https://i.pinimg.com/originals/a5/f2/d4/a5f2d4b91735751785bc2dd441c7f0b6.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+.text-trang{
+	color: aliceblue;
+}
+.text-do{
+	color: #C8102E;
+}
+.text-vang{
+	color: #FFCD00;
+}
